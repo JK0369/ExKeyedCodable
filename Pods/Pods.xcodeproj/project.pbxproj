@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0920A713CB100A3874902A35226DD86D /* KeyedCodable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC5AF2C49063428FEA742A49FD86206 /* KeyedCodable-dummy.m */; };
+		213350A82BE20D70A903D16AEE96E915 /* KeyedJSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D847F068259B08B9C70C1D1586AD4 /* KeyedJSONEncoder.swift */; };
+		25DF77EB0A52DF9BB0F220502E09B936 /* KeyedConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C3E63BE90B28AE077FCF03EF543767 /* KeyedConfig.swift */; };
+		4AFE97D807D4C2F4A25E119BDC835DA5 /* KeyedCodable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD49AD8EE5DDEACAEDCF931840244B90 /* KeyedCodable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D4EC819C8C2EFAFC54BE7F60FF86A39 /* AnyKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913ADF4E42B5D4F73CF8FF2463E84C48 /* AnyKey.swift */; };
+		5D91FBE28EBC5D68FDF46CAA17D4807C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		640E61166C00F9C95F09756D49A9F030 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		73B0E2D6CA7082167B80356F6EA60660 /* Pods-ExKeyedCodable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 281E41C723AFCDD8CC7DD9ED22773F10 /* Pods-ExKeyedCodable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82005DD4A67C0ED67E45F7C9458A9E94 /* KeyedKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C954D94CD49F782E5E0A90BA6EE6A3 /* KeyedKey.swift */; };
+		B237AE08338552E2BA0D1FCCEFE83992 /* KeyedJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1254A2DF132A875B61E548428E9C38E /* KeyedJSONDecoder.swift */; };
+		BE53334A4B51275CEA7EC99793753681 /* Transformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456D924B5E0E1F2E204C7CA12A9A83AE /* Transformers.swift */; };
+		DD9B44766B2F315B41E0ADF4612B8348 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A38C536A5DF37061ABC5E187F4EA2 /* Helpers.swift */; };
+		E0A60C9D112007971321292BC7B66BEC /* ZeroDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8FDE28B87CA7C111D4C9F94D554C1F /* ZeroDecodable.swift */; };
+		FD7EC4DD7A364B9EC3B622751BA09B85 /* Pods-ExKeyedCodable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CAAA454FD380D6EB7F7EED5B7F55E3 /* Pods-ExKeyedCodable-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B7EBF3A9707700A62B0F8DAE9AD86B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAAA54E13F96B592A17697D388D98F1;
+			remoteInfo = KeyedCodable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13CAAA454FD380D6EB7F7EED5B7F55E3 /* Pods-ExKeyedCodable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExKeyedCodable-dummy.m"; sourceTree = "<group>"; };
+		215B6640BDAE4279BDF593B86B98E42A /* Pods-ExKeyedCodable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExKeyedCodable.release.xcconfig"; sourceTree = "<group>"; };
+		281E41C723AFCDD8CC7DD9ED22773F10 /* Pods-ExKeyedCodable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExKeyedCodable-umbrella.h"; sourceTree = "<group>"; };
+		456D924B5E0E1F2E204C7CA12A9A83AE /* Transformers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformers.swift; path = KeyedCodable/Sources/Transformers.swift; sourceTree = "<group>"; };
+		4755BAFE00745BBB4DEE8E40C403464D /* Pods-ExKeyedCodable-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExKeyedCodable-frameworks.sh"; sourceTree = "<group>"; };
+		49B681FC2E11C22B4FFAFB80C0E2D962 /* KeyedCodable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeyedCodable-Info.plist"; sourceTree = "<group>"; };
+		4E0008A70E937B3487DEA2212F3E2268 /* Pods-ExKeyedCodable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ExKeyedCodable"; path = Pods_ExKeyedCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8FDE28B87CA7C111D4C9F94D554C1F /* ZeroDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroDecodable.swift; path = KeyedCodable/Sources/ZeroDecodable.swift; sourceTree = "<group>"; };
+		6B33AFBF61A57716242EE3787DAF200E /* Pods-ExKeyedCodable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExKeyedCodable.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76463322F688C17815B231AA3CF9492A /* KeyedCodable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyedCodable-prefix.pch"; sourceTree = "<group>"; };
+		7CD862D728774D37EDBF65AD81A8AE00 /* KeyedCodable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeyedCodable.modulemap; sourceTree = "<group>"; };
+		88C954D94CD49F782E5E0A90BA6EE6A3 /* KeyedKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyedKey.swift; path = KeyedCodable/Sources/KeyedKey.swift; sourceTree = "<group>"; };
+		913ADF4E42B5D4F73CF8FF2463E84C48 /* AnyKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyKey.swift; path = KeyedCodable/Sources/AnyKey.swift; sourceTree = "<group>"; };
+		92C3E63BE90B28AE077FCF03EF543767 /* KeyedConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyedConfig.swift; path = KeyedCodable/Sources/KeyedConfig.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A29913009BA25C0B8EFC0F7ED0C62B3D /* KeyedCodable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeyedCodable; path = KeyedCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC5AF2C49063428FEA742A49FD86206 /* KeyedCodable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyedCodable-dummy.m"; sourceTree = "<group>"; };
+		AEF1252D82F9F69A57D26EBFF7117E38 /* Pods-ExKeyedCodable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExKeyedCodable-Info.plist"; sourceTree = "<group>"; };
+		B1254A2DF132A875B61E548428E9C38E /* KeyedJSONDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyedJSONDecoder.swift; path = KeyedCodable/Sources/KeyedJSONDecoder.swift; sourceTree = "<group>"; };
+		BD49AD8EE5DDEACAEDCF931840244B90 /* KeyedCodable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyedCodable-umbrella.h"; sourceTree = "<group>"; };
+		C50D847F068259B08B9C70C1D1586AD4 /* KeyedJSONEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyedJSONEncoder.swift; path = KeyedCodable/Sources/KeyedJSONEncoder.swift; sourceTree = "<group>"; };
+		C5F20DAB0A32A9F8B73167D69FD6E34E /* Pods-ExKeyedCodable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExKeyedCodable.modulemap"; sourceTree = "<group>"; };
+		F401EFB281626E71CDADF28DE8EEF454 /* KeyedCodable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyedCodable.debug.xcconfig; sourceTree = "<group>"; };
+		F902C7962913FC8E60367B12B4ADE7AC /* KeyedCodable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyedCodable.release.xcconfig; sourceTree = "<group>"; };
+		FB6A38C536A5DF37061ABC5E187F4EA2 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = KeyedCodable/Sources/Helpers.swift; sourceTree = "<group>"; };
+		FDFDBCA6A61748DB6946A0733BEDD899 /* Pods-ExKeyedCodable-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExKeyedCodable-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF0BE0A684183A496D05E9307DEACF1E /* Pods-ExKeyedCodable-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExKeyedCodable-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC23674A9076263228FF93489D823CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D91FBE28EBC5D68FDF46CAA17D4807C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABAE93C5082B0F3CFD5A1AE47340C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640E61166C00F9C95F09756D49A9F030 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D3B6283F84709C06A6A0F219A0E0E1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CD862D728774D37EDBF65AD81A8AE00 /* KeyedCodable.modulemap */,
+				AAC5AF2C49063428FEA742A49FD86206 /* KeyedCodable-dummy.m */,
+				49B681FC2E11C22B4FFAFB80C0E2D962 /* KeyedCodable-Info.plist */,
+				76463322F688C17815B231AA3CF9492A /* KeyedCodable-prefix.pch */,
+				BD49AD8EE5DDEACAEDCF931840244B90 /* KeyedCodable-umbrella.h */,
+				F401EFB281626E71CDADF28DE8EEF454 /* KeyedCodable.debug.xcconfig */,
+				F902C7962913FC8E60367B12B4ADE7AC /* KeyedCodable.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeyedCodable";
+			sourceTree = "<group>";
+		};
+		699856BE9D0E4E38C4EC161226673C31 /* KeyedCodable */ = {
+			isa = PBXGroup;
+			children = (
+				913ADF4E42B5D4F73CF8FF2463E84C48 /* AnyKey.swift */,
+				FB6A38C536A5DF37061ABC5E187F4EA2 /* Helpers.swift */,
+				92C3E63BE90B28AE077FCF03EF543767 /* KeyedConfig.swift */,
+				B1254A2DF132A875B61E548428E9C38E /* KeyedJSONDecoder.swift */,
+				C50D847F068259B08B9C70C1D1586AD4 /* KeyedJSONEncoder.swift */,
+				88C954D94CD49F782E5E0A90BA6EE6A3 /* KeyedKey.swift */,
+				456D924B5E0E1F2E204C7CA12A9A83AE /* Transformers.swift */,
+				6A8FDE28B87CA7C111D4C9F94D554C1F /* ZeroDecodable.swift */,
+				5D3B6283F84709C06A6A0F219A0E0E1D /* Support Files */,
+			);
+			name = KeyedCodable;
+			path = KeyedCodable;
+			sourceTree = "<group>";
+		};
+		8154993E4D951E308BB38955BA9E4674 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				699856BE9D0E4E38C4EC161226673C31 /* KeyedCodable */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4C5752AFFE31B73A5441A8BDDFDC712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A29913009BA25C0B8EFC0F7ED0C62B3D /* KeyedCodable */,
+				4E0008A70E937B3487DEA2212F3E2268 /* Pods-ExKeyedCodable */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4D80C3654816E13E6042A0485C96CA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC05524EDB00C49E5F2AD9E8ACC82A7D /* Pods-ExKeyedCodable */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8154993E4D951E308BB38955BA9E4674 /* Pods */,
+				B4C5752AFFE31B73A5441A8BDDFDC712 /* Products */,
+				B4D80C3654816E13E6042A0485C96CA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC05524EDB00C49E5F2AD9E8ACC82A7D /* Pods-ExKeyedCodable */ = {
+			isa = PBXGroup;
+			children = (
+				C5F20DAB0A32A9F8B73167D69FD6E34E /* Pods-ExKeyedCodable.modulemap */,
+				FDFDBCA6A61748DB6946A0733BEDD899 /* Pods-ExKeyedCodable-acknowledgements.markdown */,
+				FF0BE0A684183A496D05E9307DEACF1E /* Pods-ExKeyedCodable-acknowledgements.plist */,
+				13CAAA454FD380D6EB7F7EED5B7F55E3 /* Pods-ExKeyedCodable-dummy.m */,
+				4755BAFE00745BBB4DEE8E40C403464D /* Pods-ExKeyedCodable-frameworks.sh */,
+				AEF1252D82F9F69A57D26EBFF7117E38 /* Pods-ExKeyedCodable-Info.plist */,
+				281E41C723AFCDD8CC7DD9ED22773F10 /* Pods-ExKeyedCodable-umbrella.h */,
+				6B33AFBF61A57716242EE3787DAF200E /* Pods-ExKeyedCodable.debug.xcconfig */,
+				215B6640BDAE4279BDF593B86B98E42A /* Pods-ExKeyedCodable.release.xcconfig */,
+			);
+			name = "Pods-ExKeyedCodable";
+			path = "Target Support Files/Pods-ExKeyedCodable";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3352937877A7CD2AFE6BD7CD79C7CA90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B0E2D6CA7082167B80356F6EA60660 /* Pods-ExKeyedCodable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D163A4119E203862A21D6AF380D0DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AFE97D807D4C2F4A25E119BDC835DA5 /* KeyedCodable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EDBFCF2148CDE572E0DE43D2D10AB1BA /* Pods-ExKeyedCodable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C198FAC721B7A25F5FCC510AD0995B0 /* Build configuration list for PBXNativeTarget "Pods-ExKeyedCodable" */;
+			buildPhases = (
+				3352937877A7CD2AFE6BD7CD79C7CA90 /* Headers */,
+				E814F822793DA04B7CA2ED36089BC1F9 /* Sources */,
+				4ABAE93C5082B0F3CFD5A1AE47340C80 /* Frameworks */,
+				4791EE026B87494DF36CE39A67D2ED22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				723A9F5BF7844CAE436B1BE720C1C940 /* PBXTargetDependency */,
+			);
+			name = "Pods-ExKeyedCodable";
+			productName = Pods_ExKeyedCodable;
+			productReference = 4E0008A70E937B3487DEA2212F3E2268 /* Pods-ExKeyedCodable */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCAAA54E13F96B592A17697D388D98F1 /* KeyedCodable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC8A40F74582B676E3F4F0E02668502 /* Build configuration list for PBXNativeTarget "KeyedCodable" */;
+			buildPhases = (
+				46D163A4119E203862A21D6AF380D0DA /* Headers */,
+				440D0AC7DB2E571D05851522AD426043 /* Sources */,
+				1AC23674A9076263228FF93489D823CF /* Frameworks */,
+				4BE06E2C92FCF16239C26929609C4020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyedCodable;
+			productName = KeyedCodable;
+			productReference = A29913009BA25C0B8EFC0F7ED0C62B3D /* KeyedCodable */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B4C5752AFFE31B73A5441A8BDDFDC712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCAAA54E13F96B592A17697D388D98F1 /* KeyedCodable */,
+				EDBFCF2148CDE572E0DE43D2D10AB1BA /* Pods-ExKeyedCodable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4791EE026B87494DF36CE39A67D2ED22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE06E2C92FCF16239C26929609C4020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		440D0AC7DB2E571D05851522AD426043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4EC819C8C2EFAFC54BE7F60FF86A39 /* AnyKey.swift in Sources */,
+				DD9B44766B2F315B41E0ADF4612B8348 /* Helpers.swift in Sources */,
+				0920A713CB100A3874902A35226DD86D /* KeyedCodable-dummy.m in Sources */,
+				25DF77EB0A52DF9BB0F220502E09B936 /* KeyedConfig.swift in Sources */,
+				B237AE08338552E2BA0D1FCCEFE83992 /* KeyedJSONDecoder.swift in Sources */,
+				213350A82BE20D70A903D16AEE96E915 /* KeyedJSONEncoder.swift in Sources */,
+				82005DD4A67C0ED67E45F7C9458A9E94 /* KeyedKey.swift in Sources */,
+				BE53334A4B51275CEA7EC99793753681 /* Transformers.swift in Sources */,
+				E0A60C9D112007971321292BC7B66BEC /* ZeroDecodable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E814F822793DA04B7CA2ED36089BC1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7EC4DD7A364B9EC3B622751BA09B85 /* Pods-ExKeyedCodable-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		723A9F5BF7844CAE436B1BE720C1C940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeyedCodable;
+			target = FCAAA54E13F96B592A17697D388D98F1 /* KeyedCodable */;
+			targetProxy = 4B7EBF3A9707700A62B0F8DAE9AD86B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		79DB3E70A70DED588B6F1C070439EE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B33AFBF61A57716242EE3787DAF200E /* Pods-ExKeyedCodable.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExKeyedCodable/Pods-ExKeyedCodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExKeyedCodable/Pods-ExKeyedCodable.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CF6D73B0C6EC1A12A07CBE0DEF8E8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F902C7962913FC8E60367B12B4ADE7AC /* KeyedCodable.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyedCodable/KeyedCodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyedCodable/KeyedCodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeyedCodable/KeyedCodable.modulemap";
+				PRODUCT_MODULE_NAME = KeyedCodable;
+				PRODUCT_NAME = KeyedCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EEC355A63676AE24D7D57924FACF0343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215B6640BDAE4279BDF593B86B98E42A /* Pods-ExKeyedCodable.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExKeyedCodable/Pods-ExKeyedCodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExKeyedCodable/Pods-ExKeyedCodable.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0D1FFB610B0A6AD305A9F75644AE154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F401EFB281626E71CDADF28DE8EEF454 /* KeyedCodable.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyedCodable/KeyedCodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyedCodable/KeyedCodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeyedCodable/KeyedCodable.modulemap";
+				PRODUCT_MODULE_NAME = KeyedCodable;
+				PRODUCT_NAME = KeyedCodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EC8A40F74582B676E3F4F0E02668502 /* Build configuration list for PBXNativeTarget "KeyedCodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D1FFB610B0A6AD305A9F75644AE154 /* Debug */,
+				9CF6D73B0C6EC1A12A07CBE0DEF8E8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C198FAC721B7A25F5FCC510AD0995B0 /* Build configuration list for PBXNativeTarget "Pods-ExKeyedCodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DB3E70A70DED588B6F1C070439EE6E /* Debug */,
+				EEC355A63676AE24D7D57924FACF0343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

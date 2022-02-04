@@ -1,0 +1,16 @@
+PODS:
+  - KeyedCodable (3.0.0)
+
+DEPENDENCIES:
+  - KeyedCodable
+
+SPEC REPOS:
+  trunk:
+    - KeyedCodable
+
+SPEC CHECKSUMS:
+  KeyedCodable: 02a46aca4ac020386ada5ffcc8baedcb341c9fb0
+
+PODFILE CHECKSUM: c273fad318507dab02bb6a22e948cc9f1c791a91
+
+COCOAPODS: 1.11.2
